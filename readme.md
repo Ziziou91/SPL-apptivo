@@ -10,7 +10,12 @@ this app uses Node.js. Installers for Windows, Linux and Mac camn be [found here
 
 You will need to have a **key.js** with the api key in the following format:
 
-`put example here.`
+`const keys = {
+api : 'your api_key here',
+access : 'your access here'
+}
+
+exports.keys = keys;`
 
 run the app by navigating into this folder and entering:
 
